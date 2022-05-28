@@ -1,0 +1,34 @@
+
+         ____    __  _____
+        / __ \  / / /    / RESiSTANCE
+       / / / / / / / /¯¯¯  IS FUTiLE
+      /  ¯¯ / / / /  ¯¯/
+     / /¯| | / / / /¯¯¯
+     ¯¯  | | ¯¯  ¯¯      __________________ ___ __ _ _ _
+         \  ¯¯¯¯¯¯¯¯¯¯¯/ Dr. rED mEAT proudly presents :
+          ¯¯¯¯¯¯¯¯¯¯¯¯¯  Anti Import - Some samples
+                         ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+                                                   meat!
+
+Hello there !
+
+Here is a small collection of Anti Imports written in ASM with MASM32.
+In fact, it's easy to understand if you know a little bit the Import Table. Moreover, I coded (well, crafted :) some MACROs in order to make the use of it easier. It can fool both your debugger and you disasembler (depends of the technic). I suggest you to have a test. It also depends the tools you use, eg Olly is the only one which can pass the Anti-import1 sample.
+
+Anti-import1  : My first one, it simply calls the functions into a variable.
+Anti-import2  : This one retreive the function's address written by Windows in the IAT.
+ImportHacker  : This one is cool :) It swaps two function. Have a look with IDA :)
+ - normal     : The normal version, for you to understand easily.
+ - discret    : The discret version, all swaps are done into a proc at the beginning. Quite lame.
+TotalMassacre : It use both Importhacker and Anti-import2 technics. Easy to use (with MACROs) but total confuze for the cracker :)
+
+PS:  Messages showed by the messageboxes are in french, but don't care, it's crap :)
+PS2: It shall works fine under every OSes.
+PS3: Sorry for my lame english :(
+
+Hope ya'll have phun wit it !
+the Dr. rED mEAT
+RESISTANCE IS FUTILE
+
+http://www.rif.fr.fm
+mailto:redmeat_rif@yahoo.fr

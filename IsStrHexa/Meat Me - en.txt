@@ -1,0 +1,67 @@
+
+ -------------------
+ IsStrHexa
+ by the Dr. rED mEAT
+ -------------------
+
+ ============================================================================
+
+ Description :
+ -------------
+
+ This function determines if the input string contains only hexadecimal chars
+ 
+ ============================================================================
+
+ Prototype :
+ -----------
+
+ BOOL IsStrHexa(
+  LPCTSTR String	// String to test  
+ );
+ 
+ ============================================================================
+
+ Usage :
+ -------
+
+ invoke IsStrHexa, ADDR MyString
+
+ ============================================================================
+
+ Output Value :
+ --------------
+
+ If the string contains non-hexa chars, eax is zero.
+ If the string only contains hexa chars, eax is non-zero.
+
+ ============================================================================
+
+ How to use it :
+ ---------------
+
+ * Copy the .asm file in the \masm32\M32LIB directory
+ * Next assemble'em all by clicking on MAKE.bat
+ * Next open le masm32.inc file in the \masm32\INCLUDE directory
+ * After, insert those lines where we want in the fichier :
+
+ ;-------------------------------
+ ; Lib added by the Dr. rED mEAT
+ ;-------------------------------
+ IsStrHexa PROTO :DWORD
+ ;-------------------------------
+
+ ============================================================================
+
+ INFO :
+ ------
+
+ This library is freeware ! You can modify it, clean your ass with it, I don't
+ care... But after this, don't cry if it doesn't work !
+
+ ============================================================================
+
+ Download other fun stuffs, check our site...
+
+ the Dr. rED mEAT : redmeat_rif@yahoo.fr
+ ::|( RIF )|::    : www.RIF.fr.fm

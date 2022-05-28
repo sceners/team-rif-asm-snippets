@@ -1,0 +1,48 @@
+
+         ____    __  _____
+        / __ \  / / /    / RESiSTANCE
+       / / / / / / / /¯¯¯  IS FUTiLE
+      /  ¯¯ / / / /  ¯¯/
+     / /¯| | / / / /¯¯¯
+     ¯¯  | | ¯¯  ¯¯      __________ ___ __ _ _ _
+         \  ¯¯¯¯¯¯¯¯¯¯¯/ meat proudly presents :
+          ¯¯¯¯¯¯¯¯¯¯¯¯¯  My Own Buttons Sample
+                         ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+                                           meat!
+
+My Own Buttons Sample :
+-----------------------
+
+Bijour m'siou
+
+Un petit exemple d'utilisation des boutons au style BS_OWNERDRAW avec en bonus :
+- L'utilisation de TransparentBlt pour peindre avec un couleur définie comme transparente (cf. TransparentSamples-meat)
+- L'utilisation de DrawShadowText pour écrire du texte avec ombre (cf. DrawShadowText-meat)
+
+Conseils :
+----------
+
+¤ Les formats des images conseillés sont : - BMP (si vous aimez bien faire des gros programmes :)
+                                           - GIF
+                                           - PNG (si vous pouvez pas faire autrement : PnG SuXX aLL0t :)
+Mais sûrtout pas le JPG à cause de sa compréssion 'déstructrisse' (merde j'ai oublié le terme :) qui fait des gros patés, vous avez sûrement vu ça dans des DiVX encodés à l'arrache :) <- DiVX c'est mal :)
+
+¤ La taille des boutons de doivent pas être 0, sinon y a rien (logique :), mais quoi que vous entrerez, la routine fixera automatiquement à 100 pour éviter des désagrements !
+
+¤ Rien d'autre à faire que de déclarer le prototype de la routine DrawImage et inclure ça dans votre WndProc :
+
+    .ELSEIF (uMsg == WM_DRAWITEM)
+        invoke DrawImage, hWnd, lParam                                      ; Thanks to Canterwood for your template
+
+Le merci Canterwood c'est pas obligé :)
+
+Conclusion :
+------------
+
+Allez, amusez-vous bien avec ça ! Et comme dit ma mère : 'Fait toi payer pour tes programmes'...
+Damn ! J'ai vraiment pas une mère GPL(*) :)
+
+the Dr. rED mEAT
+RESiSTANCE IS FUTiLE 2oo4
+
+(*) GNU PUBLIC LICENCE, et pas le carburant, non mais...

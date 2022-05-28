@@ -1,0 +1,28 @@
+
+         ____    __  _____ 
+        / __ \  / / /    / RESiSTANCE
+       / / / / / / / /¯¯¯  IS FUTiLE
+      /  ¯¯ / / / /  ¯¯/
+     / /¯| | / / / /¯¯¯
+     ¯¯  | | ¯¯  ¯¯      ___________________________ ___ __ _ _ _
+         \  ¯¯¯¯¯¯¯¯¯¯¯/ Dr. rED mEAT proudly present :
+          ¯¯¯¯¯¯¯¯¯¯¯¯¯  Convert Euro (le ridicule ne tue pas...)
+                         ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+                                                             meat!
+
+Salut !
+
+Ceci est un exemple d'utilisation des instructions FPU (le coprocesseur arithmétique). Le principal interet est quand même le code source, bien que j'ai toujours du mal avec ces putains de convertions de tête :)
+
+Il est conseillé de tracer avec Olly et de voir comment réagissent les registres st(x).
+
+Enfin, vous faites bien ce que vous voulez, moi ça m'a pas mal servi ce chtiote merde !
+
+See ya !
+The Nasty Red Meat
+RESiSTANCE IS FUTiLE
+
+ @meat   -> mailto:redmeat_rif@yahoo.fr
+ RIF     -> http://www.rif.fr.fm
+ #RIF    -> irc://irc.tafiole.net:6667:/RIF
+

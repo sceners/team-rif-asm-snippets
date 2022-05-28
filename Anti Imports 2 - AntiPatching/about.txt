@@ -1,0 +1,44 @@
+
+         ____    __  _____
+        / __ \  / / /    / RESiSTANCE
+       / / / / / / / /¯¯¯  IS FUTiLE
+      /  ¯¯ / / / /  ¯¯/
+     / /¯| | / / / /¯¯¯
+     ¯¯  | | ¯¯  ¯¯      ______ ____ ___ _ _ _
+         \  ¯¯¯¯¯¯¯¯¯¯¯/ AntiPatching Example
+          ¯¯¯¯¯¯¯¯¯¯¯¯¯  ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+                                      meat!
+
+En codant mon 'LogFileInfo', j'ai eu l'idée de créer une nouvelle protection anti-patching !
+En fait, je me sers de la fonction FindFirstFileA, qui apres appel, rempli une stucture : 
+
+typedef struct _WIN32_FIND_DATA { // wfd 
+    DWORD dwFileAttributes; 
+    FILETIME ftCreationTime; 
+    FILETIME ftLastAccessTime; 
+    FILETIME ftLastWriteTime; 
+    DWORD    nFileSizeHigh; 
+    DWORD    nFileSizeLow; 
+    DWORD    dwReserved0; 
+    DWORD    dwReserved1; 
+    TCHAR    cFileName[ MAX_PATH ]; 
+    TCHAR    cAlternateFileName[ 14 ]; 
+} WIN32_FIND_DATA;
+
+Avec celle-ci, nous pouvons récuperer pas mal d'infos sur le fichier cible !
+Notemment, 'ftLastWriteTime;' qui donne la date et l'heure de sa derniere modification.
+
+Seulement, dans mon sample, je me sers uniquement de la date, pas de l'heure (hmmm, quelle feignasse je suis :), mais rien ne vous empeche d'utiliser l'heure en plus, ce qui renforcerai la protection.
+Le mieux, en fait, serait de ne pas formater la date et l'heure (ici : dd/mm/yyyy), ce qui le rendrait illisible, et de generer en memoire la constante !
+
+Bien sur, je me considere l'inventeur de cette protection car je ne l'ai jamais vu !
+Donc, ne me prenez pas pour un vulgaire pompeur, et signalez-le moi si vous tombez sur une protection du meme genre !
+
+NB : On 'doit' l'utiliser en temps que crackme, dont le but sera de faire apparaitre la messagebox 'GoodBoy' !
+Il est assez facile de bipasser cette protection, surtout en modifiant la date systeme ! :)
+
+Have Fun !
+$KORBUT / RiF
+
+skorbut_rif@yahoo.fr
+http://www.rif.fr.fm

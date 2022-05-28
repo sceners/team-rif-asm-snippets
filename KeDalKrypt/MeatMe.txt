@@ -1,0 +1,22 @@
+
+         ____    __  _____
+        / __ \  / / /    / RESiSTANCE
+       / / / / / / / /¯¯¯  IS FUTiLE
+      /  ¯¯ / / / /  ¯¯/
+     / /¯| | / / / /¯¯¯
+     ¯¯  | | ¯¯  ¯¯      ____________________ ___ __ _ _ _
+         \  ¯¯¯¯¯¯¯¯¯¯¯/ meat proudly presents :
+          ¯¯¯¯¯¯¯¯¯¯¯¯¯  KeDalKrypt - DalKrypt's Decryptor
+                         ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+                                                     meat!
+
+KeDalKrypt :
+------------
+
+Un petit décrypteur pour le DalKrypt de DalKiT. Le but est sûrtout apprendre à utiliser PE Samouraï (PES), j'espère que DalKiT ne m'en voudra pas :)
+Ceci utilise la version 'Black Lotus' de PES à cette heure-ci non disponible sur internet... Ceci ne devrai pas poser de problèmes...
+J'ai codé ce truc en 1/15 d'heure, autant dire que je n'ai pas testé à fond. Toutesfois ça devrai marcher :)
+Atention, il est très lame, il ne vérifie pas que le fichier est eventuellement crypté avec DalKrypt !
+
+the Dr. rED mEAT
+RESiSTANCE IS FUTiLE 2oo4

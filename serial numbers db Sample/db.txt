@@ -1,0 +1,73 @@
+
+; ---------------------------------------------------------------------
+; Database sample v 0.0
+; written by the Dr. rED mEAT / RIF
+; ---------------------------------------------------------------------
+; 
+; There ain't any valid serial in this file :) Legality purpose...
+; 
+; _ Nam : SoftWare name
+; _ Ver : SoftWare version
+; _ Cmp : Company name
+; _ Url : Company or SoftWare URL
+; _ Nfo : Infos like Name, S/n, etc...
+; _ End : End of info structure
+; _ Eof : End of database
+; 
+; ALL TAGS ARE CASE SENSITIVE ! You aren't obliged to use an alphabetical
+; order, the programme does it itself ! Spaces at start of lines or at
+; start of info
+; 
+; H4v3 PhuN 4nD D0N't f0Rg3t T0 h4cK d4 w0r1d :) Just kidding...
+; 
+; ---------------------------------------------------------------------
+
+_Nam 3D GIF Designer
+_Ver 2.21
+_Cmp Pysoft
+_Url http://www.pysoft.com
+_Nfo Name : DR. RED MEAT
+     S/n : 087B7B01
+_End
+
+_Nam Bijour
+_Ver 666
+_Cmp Microsoft
+_Url http://www.microsoft/lycos/multimania/index.html
+_Nfo Name : Dr. rED mEAT
+     S/n : 9871-6524-4561
+_End
+
+_Nam $Uck A Cock
+_Ver 8.9
+_Cmp InterMarché
+_Url http://www.intermarche.com
+_Nfo Name : meat / RIF
+     S/n : 3647941
+_End
+
+_Nam Alcoolique au volant
+_Ver 9.8
+_Cmp JeSaiPa
+_Url http://www.porte-nawak.fr
+_Nfo Name : Jean Claude / RIF
+     S/n : 34-113-119-192-75-154-43-135-49-48-32-47-32-91-82-105-70-93
+_End
+
+_Nam Gerard
+_Ver 2.0b
+_Cmp Gerard.com
+_Url http://www.Gerard.com
+_Nfo Name : Anne Onyme / [RIF]
+     S/n : A1C8AD5C
+_End
+
+_Nam GenerayionKeskya
+_Ver 8.7a
+_Cmp -
+_Url 
+_Nfo Name : Ivan Dressamere / [RIF]
+     S/n : 5279982
+_End
+
+_Eof

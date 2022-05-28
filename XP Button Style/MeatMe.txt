@@ -1,0 +1,32 @@
+
+         ____    __  _____ 
+        / __ \  / / /    / RESiSTANCE
+       / / / / / / / /¯¯¯  IS FUTiLE
+      /  ¯¯ / / / /  ¯¯/
+     / /¯| | / / / /¯¯¯
+     ¯¯  | | ¯¯  ¯¯      __________ ___ __ _ _ _
+         \  ¯¯¯¯¯¯¯¯¯¯¯/ meat proudly presents :
+          ¯¯¯¯¯¯¯¯¯¯¯¯¯  XP Button Style
+                         ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+                                           meat!
+
+XP Button Style :
+-----------------
+
+Ok ! On me reproche de boycotter XP ? Ce que j'ai fait c'est prendre une grande respiration.................
+Et gicler mon vieux 98SE ** snif :( ** Au plus grand plaisir de ces messieurs :)
+Adieu mon vieux pote SoftIce, bonjour Olly !
+
+Bon, pour l'occas' j'ai testé un petit truc qui m'avait titillé depuis pas mal de temps quand j'allais chez des potes : Pourquoi que certaines App's avaient des beaux boutons style XP et pis par les autres ? Et bidouillant un peu j'ai remarqué leur point commun : Toutes contiennent un fichier XML à l'interieur, j'ai remarqué ça quand je les trifougnaient avec eXeScope.
+
+Le type de ressource est 24 (au lieu des habituels IMAGE, RCDATA...) et l'id est 1.
+
+Ok ! Ce que j'ai fait c'est ripper le fichier de PowerArchiver et l'injecter dans mes progs. En plus, il n'y à rien à coder, juste ajouter une ligne dans le fichier de resource.
+
+Ne me demandez pas comment ça marche, je ne sait pas, j'ai fait selon l'instinct (visiblement ça marche :) de plus je ne sait même pas à quoi peut bien servir un fichier XML en géneral (note : je m'en fout, ainsi que tout ce qui touche à la technologie internet).
+
+Amusez-vous bien !
+PS: Une pitite snapshot à été prise pour ceux qui ne comprendraient pas qu'ils sont encore sous 9x lol.
+
+the Dr. rED mEAT (xpéiste malgré lui :)
+RESiSTANCE IS FUTiLE 2oo4
